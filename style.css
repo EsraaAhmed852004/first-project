@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+/* .container {
+    width: 1120px;
+} */
+/* Start nav */
+nav{
+    background-color: #000;
+    color: #fff;
+    font-size: larger;
+}
+nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+   margin-left: 5px;
+   margin-right: 5px;
+   padding: 20px;
+   text-transform: uppercase;
+}
+nav ul li:hover {
+    background-color: #fff;
+    color: #000;
+    
+}
+/* End nav */
+
+
+/* Start  Header */
+header {
+    background-image: url("./img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+/* End Header */
+
+/* Start Brand */
+.brand-section{
+text-align: center;
+}
+
+.brand-section h1{
+    text-transform: uppercase;
+}
+
+.brand-section .images {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+}
+
+.brand-section .images .image-box{
+    margin: 0 20px;
+}
+
+/* End Brand */
