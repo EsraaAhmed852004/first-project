@@ -8,6 +8,7 @@ body {
 }
 h1 ,h2,h3,h4,h5,h6 {
     margin: 0;
+    text-transform: uppercase;
 }
 /* Start nav */
 nav {
@@ -77,27 +78,37 @@ header {
     text-align: center;
     background-color: #000;
     color: #fff;
+    padding: 30px;
    
 }
+
 .tour-dates .months{
    text-align: center; 
+
+   
 }
 .tour-dates .months .month-sep {
     display: flex;
+    text-align: center; 
 }
 .tour-dates .months .month-oct{
     display: flex;
+    text-align: center; 
 }
 
 .tour-dates .countries{
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    
+    
 }
 .tour-dates .countries .countries-box{
     margin: 0 20px;
     background-color: #fff;
     color: #000;
+    
+    
 }
 .tour-dates .countries .countries-box .button-box .buy-tickets{
     border: 2px;
@@ -109,4 +120,42 @@ header {
 .tour-dates .countries .countries-box .button-box .buy-tickets:hover{
     background-color: #bcb9b9;
     color: #000;
+}
+
+.contact-section{
+    justify-content: center;
+    text-align: center;
+    margin: 70px;
+    
+}
+.contact-section .contacts-way{
+    display: flex;
+    margin: 50px;
+    padding: 0 100px;
+}
+.contact-section .contacts-way .Contact-Boxes{
+    margin: 0 160px;
+    
+}
+.contact-section .contacts-way .Contact-Boxes .name-email-boxes{
+    
+}
+.contact-section .contacts-way .Contact-Boxes .message-box{
+    padding: 10px;
+}
+.contact-section .contacts-way .Contact-Boxes .button-send{
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
+.contact-section .contacts-way .Contact-Boxes .button-send:hover{
+    background-color: #bcb9b9;
+    color: #000;
+}
+
+.map-image{
+    background-image: url("./img/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
