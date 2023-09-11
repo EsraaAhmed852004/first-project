@@ -1,32 +1,41 @@
 body {
     margin: 0;
 }
-/* .container {
+
+.container {
     width: 1120px;
-} */
+    margin: auto;
+}
+h1 ,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
 /* Start nav */
-nav{
+nav {
     background-color: #000;
     color: #fff;
     font-size: larger;
 }
-nav ul{
-    margin: 0 ;
-    padding: 0 ;
+
+nav ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
 }
+
 nav ul li {
-   margin-left: 5px;
-   margin-right: 5px;
-   padding: 20px;
-   text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    text-transform: uppercase;
 }
+
 nav ul li:hover {
     background-color: #fff;
     color: #000;
-    
+
 }
+
 /* End nav */
 
 
@@ -37,25 +46,67 @@ header {
     background-size: cover;
     height: 700px;
 }
+
 /* End Header */
 
 /* Start Brand */
-.brand-section{
-text-align: center;
+.brand-section {
+    text-align: center;
+    padding: 20px 0;
+
 }
 
-.brand-section h1{
+.brand-section h1 {
     text-transform: uppercase;
 }
 
 .brand-section .images {
-   display: flex;
-   justify-content: center;
-   margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
-.brand-section .images .image-box{
+.brand-section .images .image-box {
     margin: 0 20px;
 }
 
+
 /* End Brand */
+
+.tour-dates {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+   
+}
+.tour-dates .months{
+   text-align: center; 
+}
+.tour-dates .months .month-sep {
+    display: flex;
+}
+.tour-dates .months .month-oct{
+    display: flex;
+}
+
+.tour-dates .countries{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.tour-dates .countries .countries-box{
+    margin: 0 20px;
+    background-color: #fff;
+    color: #000;
+}
+.tour-dates .countries .countries-box .button-box .buy-tickets{
+    border: 2px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+}
+.tour-dates .countries .countries-box .button-box .buy-tickets:hover{
+    background-color: #bcb9b9;
+    color: #000;
+}
